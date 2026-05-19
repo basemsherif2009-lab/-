@@ -50,8 +50,8 @@ const games = [
      { 
         title: "need for speed under ground 2", 
         category: "سباق سيارات", 
-        img: "", 
-        link: "" 
+        img: "530583.jpg", 
+        link: "https://www.downloadcomputergames.net/p/redirect.html#https://up.downloadcomputergames.net/2021/12/need-for-speed-underground-2/Need-for-Speed-Underground-2.zip" 
     },
 ];
 
