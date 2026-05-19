@@ -1,0 +1,123 @@
+:root {
+    --primary: #1ea475;
+    --secondary: #04222a;
+    --dark: #121212;
+    --card-bg: #000000;
+    --text: #06daff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: var(--dark);
+    color: var(--text);
+    margin: 0;
+    padding: 20px;
+    direction: rtl;
+}
+
+header h1 {
+    text-align: center;
+    color: var(--primary);
+    font-size: 2.5rem;
+    text-shadow: 0 0 10px rgba(0,210,255,0.5);
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#searchBar {
+    width: 80%;
+    max-width: 600px;
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: none;
+    background: #2a2a2a;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    outline: none;
+    transition: 0.3s;
+}
+
+#searchBar:focus {
+    box-shadow: 0 0 20px var(--primary);
+}
+
+#gamesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.game-card {
+    background: var(--card-bg);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.4s;
+    border: 1px solid #333;
+    position: relative;
+}
+
+.game-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    border-color: var(--primary);
+}
+
+.game-img {
+    width: 100%;
+    height: 180px;
+    background: #333;
+    object-fit: cover;
+}
+
+.game-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.game-info h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.game-info p {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btns-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.download-btn {
+    flex: 2;
+    background: linear-gradient(45deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.share-btn {
+    flex: 1;
+    background: #444;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.share-btn:hover {
+    background: #555;
+    color: var(--primary);
+}
