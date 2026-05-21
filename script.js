@@ -52,6 +52,30 @@ const games = [
         category: "سباق سيارات", 
         img: "530583.jpg", 
         link: "https://www.downloadcomputergames.net/p/redirect.html#https://up.downloadcomputergames.net/2021/12/need-for-speed-underground-2/Need-for-Speed-Underground-2.zip" 
+    }, 
+    { 
+        title: "Resident Evil 5", 
+        category: "رعب/أكشن", 
+        img: "279099.jpg", 
+        link: "https://www.downloadcomputergames.net/p/redirect.html#https://up.downloadcomputergames.net/0/0/files/Resident-Evil-5-downloadcomputergames.net.zip" 
+    },
+    { 
+        title: "Resident Evil 4(2005)", 
+        category: "رعب/أكشن", 
+        img: "Screenshot 2026-05-21 083053.png", 
+        link: "https://www.downloadcomputergames.net/p/redirect.html#https://up.downloadcomputergames.net/2022/01/resident-evil-4/Resident-Evil-4.zip" 
+    },
+    { 
+        title: "Resident Evil 4(remake)", 
+        category: "رعب/أكشن", 
+        img: "Screenshot 2026-05-21 084114.png", 
+        link: "https://pcgeeks-games.com/220-page/#link" 
+    },
+    { 
+        title: "Resident Evil 2 (2019)", 
+        category: "رعب/أكشن", 
+        img: "Screenshot 2026-05-21 084728.png", 
+        link: "https://pcgeeks-games.com/resident-evil-2-links/" 
     },
 ];
 
