@@ -101,6 +101,18 @@ const games = [
         img: "Screenshot 2026-05-31 195553.png", 
         link: "https://www.downloadcomputergames.net/p/redirect.html#https://up.downloadcomputergames.net/2021/10/download-pes-2021-pc/eFootball-PES-2021.zip" 
     },
+     { 
+        title: "gta san andreas(HD edition)", 
+        category: "عالم مفتوح / أكشن",
+        img: "pp.png", 
+        link: "https://www.downloadcomputergames.net/p/redirect.html#https://up.downloadcomputergames.net/2021/02/download-gta-vice-city/GTA-Vice-City-Definitive-Edition.zip" 
+    },
+    { 
+        title: "شفرات جاتا 7", 
+        category: "شفرات",
+        img: "pp.png", 
+        link: "https://www.downloadcomputergames.net/p/redirect.html#https://up.downloadcomputergames.net/2020/12/gta-7-codes/GTA-7-Codes.docx" 
+    },
 
     
     
