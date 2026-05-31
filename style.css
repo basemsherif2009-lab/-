@@ -53,6 +53,14 @@ header h1 {
     margin: 0 auto;
 }
 
+.no-results {
+    color: #aaa;
+    font-size: 1.1rem;
+    text-align: center;
+    grid-column: 1 / -1;
+    padding: 40px 20px;
+}
+
 .game-card {
     background: var(--card-bg);
     border-radius: 20px;

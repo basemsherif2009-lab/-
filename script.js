@@ -172,7 +172,7 @@ function displayGames(gamesList) {
 }
 
 function shareGame(title) {
-    const shareText = `لعب: ${title}\ ابسط صحبك بعتلك لعبه ياعم!`;
+    const shareText = `لعب: ${title} ابسط صحبك بعتلك لعبه ياعم!`;
 
     if (navigator.share) {
         navigator.share({
